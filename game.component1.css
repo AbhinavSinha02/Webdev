@@ -1,0 +1,128 @@
+html{
+    color:#7B527D;
+    background: #420778;
+    buttons{
+        background-color:black ;
+    }
+}
+.container{
+    display:flex;
+    justify-content: center;
+    padding: 2mm;
+    .wholeTable{
+        display:grid;
+        grid-template-columns: 15cm;
+        grid-template-rows: 2cm 8cm 3.5cm;
+        border: 4mm solid #240442;
+    
+        .Name{
+            display: flex;
+            justify-content: space-between;
+            font-size: 2cm;
+            background-color:#6E6262 ;
+            color: #420778;
+            
+           
+        }    
+        .uppertable{
+            display: flex;
+            justify-content: space-around;
+            background-color: #783254;
+            padding-top: 1mm;
+            padding-bottom: 1mm;
+            .numTable{
+                background-color:#783254;
+                padding-bottom: 1mm;
+                
+                
+                
+                display:grid;
+                    grid-template-columns:1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm ;
+                    grid-template-rows:1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm   ;
+                
+                button{
+                    background-color: black;
+                    color: #7B527D;
+                    border-radius: 3mm;
+                    
+                    
+                }
+                button:hover{
+                    background-color: #7B527D;
+                    color: black;
+
+
+                }
+                
+                }
+                .item{
+                    font-size: larger;
+                }
+       
+            }
+            .counter{
+                display:grid;
+                grid-template-columns: 50px 50px ;
+                grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px ;
+                width: 3cm;
+                height: 6cm;
+                background-color: #6E6262;
+                border: 5px solid #4A4242;
+                color: #420778;
+                font-size: 5mm;
+                border-radius: 2px;
+            }
+            
+        
+        }
+        .bottomTable{
+            display:flex;
+            justify-content: space-around;
+            background-color:#783254 ;
+            padding-top: 1mm;
+            border-width:1mm;
+            border-color: #4A4242;
+
+            
+            .quickpick{
+                display:grid;
+                grid-template-columns:40px 40px 40px 40px 40px;
+                grid-template-rows:40px 40px 40px;
+                background-color:#783254;
+                button{
+                    background-color: black;
+                    color: #7B527D;
+                    font-weight: bold;
+                    border-radius: 3mm;
+                }
+            }
+                .wager{
+                color:#420778;
+                }
+            
+            .options{
+                display:grid;
+                grid-template-columns:2cm 2cm;
+                grid-template-rows: 1cm 1cm ;
+                background-color: #783254;
+                button{
+                    background-color: #6E6262;
+                    color: #420778;
+                    font-weight: bold;s
+                    border-radius: 3mm;
+                }
+
+        
+                
+            }
+
+    }
+            
+        
+        
+    }
+}
+
+
+
+
